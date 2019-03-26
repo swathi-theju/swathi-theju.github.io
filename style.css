@@ -1,0 +1,167 @@
+body{
+	font-family: 'Roboto',sans-serif;
+	line-height: 1.8em;
+	background-color: transparent;
+	letter-spacing: 0.03em;
+	color: #161616;
+	width: 100%;
+	box-sizing: border-box;
+	padding-left: 0;
+	padding-right: 0;
+}
+.one {
+	width: 100%;
+	height: auto;
+	display: table;
+	position: relative;
+
+   animation: animatebottom 3s;
+   transition: .5s;
+   padding-left: 0;
+   padding-right: 12px;
+}
+@keyframes animatebottom{
+	from{bottom: -300px;opacity: 0} to {bottom: 0;opacity: 1}
+
+}
+.one:hover
+{
+	transform: scale(.96);
+	opacity: .7;
+
+}
+.pic1{
+	width: 100%;
+}
+.p1{
+	font-size: 2.2em;
+	padding-top: 5%;
+	padding-left: 2%;
+	font-weight: 700;
+	letter-spacing: 0.05em;
+
+}
+.p2{
+	font-size: 1.5em;
+	font-weight: 300;
+	padding-left: 2%;
+	letter-spacing: .05em;
+}
+.p3{
+	font-size: .98em;
+	color: #969696;
+	font-weight: 300;
+	padding-left: 2%;
+	letter-spacing: .05em;
+	font-style: italic;
+}
+.t1{
+	font-size: 2.5em;
+	font-weight: 700;
+	letter-spacing: .03em;
+	line-height: 1.7em;
+
+	
+}
+.t2{
+	font-size: 1.8em;
+	color: #161616;
+	font-weight: 300;
+}
+.t2:hover{
+	color:#161616; 
+	text-decoration:underline;
+
+}
+.links{
+	margin-top: 3em;
+	margin-bottom: 3em;
+	font-size: 1.58em;
+	line-height: 1.8em;
+	font-weight: 300;
+	padding-left: 1%;
+	letter-spacing: .04em;
+
+}
+.d{
+	color:#2937f0;
+	font-weight: 500; 
+}
+.d:hover{
+	color:#161616; 
+	border-bottom: 2px solid #161616;
+}
+.ab{
+	font-size: 2.5em;
+	font-weight: 700;
+	line-height: 1.7em;
+
+}
+.ab1{
+font-size: 1.58em;
+letter-spacing: 0.04em;
+font-weight: 300;
+line-height: 1.8em;
+
+}
+b{
+	font-size: 1.1em;
+	font-weight: 700;
+	letter-spacing: 0.04em;
+	font-family: 'Roboto',sans-serif;
+	line-height: 1.8em;
+}
+.head{
+	position: relative;
+	font-weight: 700;
+	font-size: 2.58em;
+	line-height: 1.7em;
+	animation: animatetop 3s;
+	width: 100%
+}
+@keyframes animatetop{
+	from {top:-300px;opacity:0} to {top:0;opacity:1}
+
+}
+.head1{
+	position: relative;
+	font-size: 1.7em;
+	animation: animatebottom 3s;
+	width: 100%
+	letter-spacing: 0.04em;
+	font-weight: 300;
+	line-height: 1.8em;
+}
+@keyframes animatebottom{
+	from {bottom:-300px;opacity:0} to {bottom:0;opacity:1}
+
+}
+.main{
+	background: transparent;
+	height: 80vh;
+	padding-top:38.5vh;
+}
+.portrait{
+	width: 100%;
+	position: relative;
+	animation: animatebottom 3s;
+	padding-left: 0;
+	padding-right: 0;
+}
+.pic1{
+	display: table;
+	padding-left: 1%;
+}
+.last{
+	height: 30vh;
+	padding-top:11vh;
+}
+.container
+{
+	margin: auto;
+
+}
+.assign{
+	padding-left: 0;
+	padding-right: 0;
+}
